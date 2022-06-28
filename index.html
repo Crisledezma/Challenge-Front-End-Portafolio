@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Referencia de la hoja de estilo de Css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&display=swap" rel="stylesheet"> 
+  <title>Portafolio Cristian Ledezma</title>
+</head>
+
+<body>
+  <!-- Sección del Menú  -->
+  <div class="todo">
+    <section class="menu">
+      <header class="menu__header container">
+        <img src="./assets/CL-DEV.png">
+        <h3 class="menu__title">Cristian Ledezma</h3>
+      </header>
+      <nav>
+        <ul class="menu__list">
+          <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+          <li class="menu__list__item"><a href="#skills">Skills</a></li>
+          <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+          <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+          <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
+          <li class="menu__list__item"><a href="#contacto">crisledezma@gmail.com</a></li>
+        </ul>
+        <li class="menu__list__item__contato"><a href="#contacto">crisledezma@gmail.com</a></li>
+      </nav>
+    </section>
+
+    <!-- Sección del Header/Title/Hero -->
+    <section>
+      <div class="title__div">
+        <img class="title__profile" src="./assets/foto-fondo.png">
+        <div class="title__container container">
+          <h2 class="title__bio">Hola, mi nombre es Cristian Ledezma y construyo paginas web</h2>
+          <h3 class="title__subsection">Soy formado en Universidad Cenfotec de Costa Rica y estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+          <ul class="title__network">
+            <!-- Pon los enlaces de tus redes sociales favoritas -->
+            <li class="title__network__item">
+              <a href="https://github.com/Crisledezma" target="_blank">Github 
+                <img src="assets\arrow.png"> </a>
+            </li>
+            <li class="title__network__item">
+              <a href="https://www.linkedin.com/in/cristian-ledezma-07109368/" target="_blank">Linkedin 
+                <img src="assets\arrow.png"></a>
+            </li>
+            <li class="title__network__item">
+              <a href="https://www.instagram.com/crisledezma01/" target="_blank">Instagram 
+                <img src="assets\arrow.png"></a>
+            </li>
+            <li class="title__network__item">
+              <a href="./assets/CV Cristian Ledezma 2021 english.pdf" target="_blank">Currículo
+                <img src="assets\arrow.png"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección sobre mi -->
+    <section class="about fondo__celeste" id="sobre-mi">
+      <div class="about__container container">
+        <h3 class="about__title">Sobre mi</h3>
+        <p class="about__paragraph">Mi nombre es Cristian Ledezma, soy de Costa Rica y me encanta aprender. Siempre estoy aprendiendo nuevas tecnologías que me ayuden a realizar de mejor manera mis trabajos como desarrollador. </p>
+        <p class="about__paragraph">Empecé como diseñador gráfico en el 2012. Luego me sumergí en el maravilloso mundo del diseño web. Aprendí HTML5, CSS y JavaScript. Como aún tenía ganas de seguir aprendiendo, me especialicé en frameworks como Angular, React, Vue, etc. Ahora estoy muy satusfecho con mis conocimientos pero sigo estudiando y creo que nunca dejaré de hacerlo.</p>
+        <!-- Si quieres, pon tú firma acá! -->
+        <img src="./assets/Firma.png">
+      </div>
+    </section>
+
+    <!-- Sección de Skills -->
+    <section class="skills" id="skills">
+      <h3 class="skills__title title">Skills</h3>
+
+      <div class="skills__line cuadricula__padre container">
+        <div class="skills__box cuadricula__hijo">
+          <ul>
+            <li class="skills__img"><img src="assets\htlm.png"></li>
+            <li class="skills__name"> HTML 5</li>
+          </ul>
+        </div>
+
+        <div class="skills__box cuadricula__hijo">
+          <ul>
+            <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
+            <li class="skills__name">Javascript</li>
+          </ul>
+        </div>
+
+        <div class="skills__box cuadricula__hijo">
+          <ul>
+            <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
+            <li class="skills__name">PHP</li>
+          </ul>
+        </div>
+
+        <div class="skills__box cuadricula__hijo">
+          <ul>
+            <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
+            <li class="skills__name">Node JS</li>
+          </ul>
+        </div>
+
+        <div class="skills__box cuadricula__hijo">
+          <ul>
+            <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
+            <li class="skills__name">React</li>
+          </ul>
+        </div>
+
+        <div class="skills__box cuadricula__hijo">
+          <ul>
+            <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
+            <li class="skills__name">CSS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Hobbies -->
+    <section class="hobbies" id="hobbies">
+      <h3 class="hobbies__title title">Hobbies</h3>
+      <div class="hobbies__line cuadricula__padre container">
+        <div class="hobbies__box cuadricula__hijo">
+          <ul>
+            <li class="hobbies__img"><img src="assets\skate_icon.png"></li>
+            <li class="hobbies__name"> Patinaje</li>
+          </ul>
+        </div>
+
+        <div class="hobbies__box cuadricula__hijo">
+          <ul>
+            <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt=""></li>
+            <li class="hobbies__name">Tocar guitarra</li>
+          </ul>
+        </div>
+
+        <div class="hobbies__box cuadricula__hijo">
+          <ul>
+            <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt=""></li>
+            <li class="hobbies__name">Oir música</li>
+          </ul>
+        </div>
+
+        <div class="hobbies__box cuadricula__hijo">
+          <ul>
+            <li class="hobbies__img"><img src="assets\tv_icon.png" alt=""></li>
+            <li class="hobbies__name">Ver séries</li>
+          </ul>
+        </div>
+
+        <div class="hobbies__box cuadricula__hijo">
+          <ul>
+            <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt=""> </li>
+            <li class="hobbies__name">Cocinar</li>
+          </ul>
+        </div>
+
+        <div class="hobbies__box cuadricula__hijo">
+          <ul>
+            <li class="hobbies__img"> <img src="assets\camera_icon.png" alt=""> </li>
+            <li class="hobbies__name">Tomar fotos</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="academic fondo__celeste" id="formacion">
+      <h2 class="academic__title title">Formación académica</h2>
+      <div class="academic__courses cuadricula__padre__formacion">
+        <div class="academic__courses__box cuadricula__hijo__formacion">
+          <ul class="academic__courses__list">
+            <!-- Pon el logotipo de la institución de formación -->
+            <li class="academic__courses__item__img"><img src="./assets/channels4_profile.jpeg"></li>
+            <li class="academic__courses__item__title">
+              <h4>Front End-Angular-React</h4>
+            </li>
+            <li class="academic__courses__item__subtitle">
+              <p>2022 - Universidad Cenfotec</p>
+            </li>
+          </ul>
+        </div>
+        <div class="academic__courses__box cuadricula__hijo__formacion">
+          <ul class="academic__courses__list">
+            <!--Pon el logotipo de la institución de formación -->
+            <li class="academic__courses__item__img"><img src="assets\alura_logo.png"></li>
+            <li class="academic__courses__item__title">
+              <h4>Full Stack Development</h4>
+            </li>
+            <li class="academic__courses__item__subtitle">
+              <p>2022 - Alura</p>
+            </li>
+          </ul>
+        </div>
+        <div class="academic__courses__box cuadricula__hijo__formacion">
+          <ul class="academic__courses__list">
+            <!-- Pon el logotipo de la institución de formación -->
+            <li class="academic__courses__item__img"><img src="./assets/Udemy_logo.svg.png"></li>
+            <li class="academic__courses__item__title">
+              <h4>Angular</h4>
+            </li>
+            <li class="academic__courses__item__subtitle">
+              <p>2022 - Udemy.com</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Experiencia Profesional/Proyectos-->
+    <section class="experience container" id="xp">
+      <h2 class="experience__section__title title">Experiencia Profesional</h2>
+      <div class="experiencie__box">
+        <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+        <img class="experience__img" src="./assets/ecriptador-cap.png">
+        <div class="experience__info"><h2 class="experience__title">Encriptador de texto</h2>
+          <h3 class="experience__text">Challenge Alura Codificador </h3>
+          <div class="experience__description">
+            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+            <span class="experience__repo"><a
+                href="https://github.com/Crisledezma/challengeonecodificador2" target="_blank"><button
+                  class="btn btn-blanco">Repositorio</button></a></span>
+            <span class="experience__demo"><a href="https://crisledezma21.github.io/ChallengeOracleONE-Encriptador-de-texto/index.html" target="_blank"><button class="btn-azul btn">Ver
+                  demo</button></a></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="experiencie__box">
+        <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+        <img class="experience__img ordenar" src="./assets/ahorcado-cap.png">
+        <div class="experience__info" <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
+          <h3 class="experience__text">Challenge Oracle </h3>
+          <div class="experience__description">
+            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+            <span class="experience__repo"><a
+                href="https://github.com/Crisledezma/Challenge02-Juego-Ahorcado" target="_blank"><button
+                  class="btn btn-blanco">Repositorio</button></a></span>
+            <span class="experience__demo"><a href="https://crisledezma.github.io/Challenge02-Juego-Ahorcado/juego.html" target="_blank"><button class="btn-azul btn">Ver
+                  demo</button></a></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="experiencie__box">
+        <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+        <img class="experience__img" src="./assets/blog1.png">
+        <div class="experience__info-container" <h2 class="experience__title">Blog de Café</h2>
+          <h3 class="experience__text">Udemy.com</h3>
+          <div class="experience__description">
+            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+            <span class="experience__repo"><a
+                href="https://app.netlify.com/sites/proyecto3crisledezma/overview" target="_blank"><button
+                  class="btn btn-blanco">Repositório</button></a></span>
+            <span class="experience__demo"><a href="https://proyecto3crisledezma.netlify.app/" target="_blank"><button class="btn-azul btn">Ver
+                  demo</button></a></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="experiencie__box">
+        <img class="experience__img ordenar" src="./assets/rock-cap.png">
+        <div class="experience__info-container" <h2 class="experience__title">Rock & EDM Festival</h2>
+          <h3 class="experience__text">Udemy.com</h3>
+          <div class="experience__description">
+            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+            <span class="experience__repo"><a
+                href="https://app.netlify.com/sites/proyecto4-crisledezma/overview" target="_blank"><button
+                  class="btn btn-blanco">Repositorio</button></a></span>
+            <span class="experience__demo"><a href="https://proyecto4-crisledezma.netlify.app/" target="_blank"><button class="btn-azul btn">Ver
+                  demo</button></a></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Sección de Contacto -->
+      <section class="formcontato fondo__celeste" id="contacto">
+        <div class="formcontato__contacto container">
+          <div class="formcontato--esquerda">
+            <img class="formcontato__img" src="assets\contact_image.png">
+          </div>
+          <div class="formcontato__text">
+            <h2 class="formcontato__title">Contacto</h2>
+            <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+            <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con
+              usted lo antes posible. </h3>
+            <form class="formcontato__form" name="form">
+              <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" id="nombre">
+              <input class="formcontato__input" type="email" name="email" placeholder="E-mail" id="email">
+              <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" id="asunto">
+              <textarea class="formcontato__textarea" rows="5" cols="40" id="mensaje" name="mensaje"
+                placeholder="Mensaje"></textarea>
+              <button id="btnSubmit" type="button" class="btn-azul btn" disabled>Enviar mensaje</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de Footer -->
+      <section class="footer">
+        <div class="footer__rodape">
+          <p>Desarrollado por Cristian Ledezma</p>
+          <p>2022</p>
+        </div>
+      </section>
+  </div>
+  <!-- Script del documento JavaScript -->
+  <script src="validacion.js"></script>
+</body>
+
+</html>
